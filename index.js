@@ -1,4 +1,3 @@
-
 class Estudiante {
     nombre;
     asignaturas;
@@ -15,8 +14,8 @@ class Estudiante {
         }
     }
 
-}
+};
 
 const estudiante = new Estudiante('Luis',['Javascript','HTML','CSS']);
 
-console.log(estudiante.obtenDatos())
+console.log(estudiante.obtenDatos());
